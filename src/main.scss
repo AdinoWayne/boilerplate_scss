@@ -5,6 +5,12 @@
   --color-white: #fff;
   --color-border: #eee;
 }
+* {
+  box-sizing: border-box
+}
+a {
+  cursor: pointer
+}
 .main-component {
   &__title {
     color: var(--color-main);
