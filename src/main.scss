@@ -1,15 +1,12 @@
 /** postcss-bem-linter: define main-component; weak */
-$color: #555;
-$color-red: #FF0000;
+@import "unit/all.scss"; 
+:root {
+  --color-main: #222;
+  --color-white: #fff;
+  --color-border: #eee;
+}
 .main-component {
   &__title {
-    color: $color;
+    color: var(--color-main);
   }
-}
-h1 {
-  color: $color-red;
-}
-/** postcss-bem-linter: define utilities */
-.u-ellipsis {
-  color: $color;
 }
